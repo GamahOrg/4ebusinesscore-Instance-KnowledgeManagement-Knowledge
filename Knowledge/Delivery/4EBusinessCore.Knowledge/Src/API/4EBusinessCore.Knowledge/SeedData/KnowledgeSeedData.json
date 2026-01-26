@@ -1,0 +1,64 @@
+[
+  {
+    "Id": "44910467-886d-46e2-85dc-cd6b0699e4a7",
+    "Name": "Knowledge Title Example",
+    "KnowledgeType": 1,
+    "Icon": "<i class=\"fas fa-x-ray\"></i>",
+    "Color": "#FF5733",
+    "CreatedBy": "00000000-0000-0000-0000-000000000000",
+    "SubKnowledges": [
+      {
+        "Id": "95d58351-f45b-4aa7-879d-9c206cc3df52",
+        "Title": "SubKnowledge Title",
+        "Details": "Details of the subknowledge content.",
+        "Targets": "Target Audience or Goals",
+        "KnowledgeId": "44910467-886d-46e2-85dc-cd6b0699e4a7",
+        "CreatedBy": "00000000-0000-0000-0000-000000000000",
+        "Date": "2025-07-01T00:00:00",
+        "ParticipatingParties": [
+          {
+            "OrgId": "6aaf469a-0efc-45ca-93cd-a458c3bdc365",
+            "SubKnowledgeId": "95d58351-f45b-4aa7-879d-9c206cc3df52",
+            "CreatedBy": "00000000-0000-0000-0000-000000000000"
+          }
+        ],
+        "KnowledgeAttachments": [
+          {
+            "FilePath": "wwwroot/Default/4E.png",
+            "FileName": "4E.png",
+            "SubKnowledgeId": "95d58351-f45b-4aa7-879d-9c206cc3df52",
+            "CreatedBy": "00000000-0000-0000-0000-000000000000"
+          }
+        ],
+        "KnowledgeFavoirates": [
+          {
+            "SubKnowledgeId": "95d58351-f45b-4aa7-879d-9c206cc3df52",
+            "CreatedBy": "00000000-0000-0000-0000-000000000000"
+          }
+        ],
+        "KnowledgeLikes": [
+          {
+            "SubKnowledgeId": "95d58351-f45b-4aa7-879d-9c206cc3df52",
+            "LikeStatus": 1,
+            "CreatedBy": "00000000-0000-0000-0000-000000000000"
+          }
+        ],
+        "KnowledgeRates": [
+          {
+            "RateValue": 5,
+            "SubKnowledgeId": "95d58351-f45b-4aa7-879d-9c206cc3df52",
+            "CreatedBy": "00000000-0000-0000-0000-000000000000"
+          }
+        ]
+      }
+    ],
+    "KnowalgeOrgs": [
+      {
+        "OrgId": "6aaf469a-0efc-45ca-93cd-a458c3bdc365",
+        "KnowledgeId": "44910467-886d-46e2-85dc-cd6b0699e4a7",
+        "CreatedBy": "00000000-0000-0000-0000-000000000000"
+      }
+    ]
+
+  }
+]

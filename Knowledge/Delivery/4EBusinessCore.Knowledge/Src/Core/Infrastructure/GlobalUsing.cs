@@ -1,0 +1,16 @@
+﻿global using Domain.Enums;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.ChangeTracking;
+global using Microsoft.EntityFrameworkCore.Infrastructure;
+global using Microsoft.EntityFrameworkCore.Migrations;
+global using Microsoft.EntityFrameworkCore.Storage;
+global using Knowledge.Domain.Models;
+global using Knowledge.Infrastructure.Context;
+global using Knowledge.Infrastructure.GenericRepo;
+global using Knowledge.Infrastructure.ResponseDto;
+global using System.Linq.Expressions;
+global using System.Reflection;
+global using System.Security.Claims;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using KnowledgeModel = Knowledge.Domain.Models.Knowledge;
